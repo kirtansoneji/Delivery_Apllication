@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginTop="200dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="RtlCompat">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:text="Order Id :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvv1"
+            android:text="Order Id "
+            android:layout_marginStart="45dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="RtlCompat">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:text="C_Name :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvv2"
+            android:text="C_Name "
+            android:layout_marginStart="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:text="Mobile No :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvv3"
+            android:text="Mobile "
+            android:layout_marginStart="25dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv5"
+            android:text="Paymnet :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvv5"
+            android:text="Payment "
+            android:layout_marginStart="35dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:id="@+id/tvpayment"
+            android:text="100"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv6"
+            android:text="Item :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvv6"
+            android:text="item "
+            android:layout_marginStart="75dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:id="@+id/ll5"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv7"
+            android:text="Address :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvv7"
+            android:text="Address "
+            android:layout_marginStart="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlCompat"
+            android:textIsSelectable="true"
+            android:cursorVisible="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll6"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+
+        <LinearLayout
+            android:id="@+id/ll7"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="185dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp" />
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"/>
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_border"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:descendantFocusability="beforeDescendants"
+            android:singleLine="true"
+            android:padding="8dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:hint="Any Instruction"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:text="Submit"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"/>
+
+</LinearLayout>
+
+
+
+</LinearLayout>

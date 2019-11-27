@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "351943054281",
+    "firebase_url": "https://great-fresh-9741c.firebaseio.com",
+    "project_id": "great-fresh-9741c",
+    "storage_bucket": "great-fresh-9741c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351943054281:android:200e0a3947881ff1edce18",
+        "android_client_info": {
+          "package_name": "com.example.greatfresh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351943054281-t85gap10v2hesrhd4p4bmbl8rtrs7pqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.greatfresh",
+            "certificate_hash": "62900a61a70c3e60754d0e43913271ed5114f195"
+          }
+        },
+        {
+          "client_id": "351943054281-9nbt7u7lheghv46kg2npv2uhsg7dj85g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ4QCl800hU_GZdRm7SvbpfYqCR73zZkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351943054281-9nbt7u7lheghv46kg2npv2uhsg7dj85g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

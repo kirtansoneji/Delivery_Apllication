@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "850813424344",
+    "firebase_url": "https://greatfreash.firebaseio.com",
+    "project_id": "greatfreash",
+    "storage_bucket": "greatfreash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850813424344:android:0c78bf7278a5345eb7bdad",
+        "android_client_info": {
+          "package_name": "com.example.greatfresh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850813424344-r2rqc4fho85f3gcpiils346ut5lcd8qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG3soNjFZVIEB_JLZjEGAngzzHKHDwbjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850813424344-r2rqc4fho85f3gcpiils346ut5lcd8qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
